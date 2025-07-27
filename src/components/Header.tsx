@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react";
+import logo from "@/assets/mds-logo.jpeg"; 
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,9 +51,8 @@ export const Header = () => {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl">
-                MDS
-              </div>
+              <img src={logo} alt="MDS Logo" className="w-16 h-16 rounded-full" />
+              
               <div className="hidden md:block">
                 <div className="text-foundation-navy font-bold text-xl">MDS FOUNDATION</div>
                 <div className="text-sm text-muted-foreground">MARTYR DHARMA BHAKTA STUDY FOUNDATION NEPAL</div>

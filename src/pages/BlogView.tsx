@@ -2,7 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link, useParams } from "react-router-dom";
-import blogsImage from "@/assets/img-1_blogs.jpg";
+import blogsImage from "@/assets/blog1.jpg";
 import { Calendar, User, ArrowLeft, Share2, Facebook, Twitter, Linkedin } from "lucide-react";
 
 const BlogView = () => {

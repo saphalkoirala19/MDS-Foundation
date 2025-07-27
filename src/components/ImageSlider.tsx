@@ -1,10 +1,14 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import heroImage1 from "@/assets/img-1_index.jpg";
-import aboutImage from "@/assets/img-1_about.jpg";
-import blogsImage from "@/assets/img-1_blogs.jpg";
+import heroImage1 from "@/assets/gallery6.jpg";
+import aboutImage from "@/assets/home5.jpg";
+import blogsImage from "@/assets/mds-logo.jpeg";
 
 const images = [
+  {
+    src: blogsImage,
+    alt: "Educational Programs"
+  },
   {
     src: heroImage1,
     alt: "MDS Foundation Community Work"
@@ -12,10 +16,6 @@ const images = [
   {
     src: aboutImage,
     alt: "Democracy and Human Rights"
-  },
-  {
-    src: blogsImage,
-    alt: "Educational Programs"
   }
 ];
 

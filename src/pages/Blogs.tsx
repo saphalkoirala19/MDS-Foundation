@@ -3,7 +3,12 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import blogsImage from "@/assets/img-1_blogs.jpg";
+import blogsImage1 from "@/assets/blog1.jpg";
+import blogsImage2 from "@/assets/blog2.jpg";
+import blogsImage3 from "@/assets/blog3.jpg";
+import blogsImage4 from "@/assets/home4.jpg";
+import blogsImage5 from "@/assets/blog5.jpg";
+import blogsImage6 from "@/assets/home6.jpg";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { BlogModal } from "@/components/BlogModal";
 import { useState } from "react";
@@ -22,55 +27,55 @@ const Blogs = () => {
       id: 1,
       title: "Exchange of the E-Learning Center Handover Document",
       excerpt: "Exchange of the E-Learning Center handover document between Mr. Sanket Koirala, Chairperson of Shahid Dharma Bhakta Study Foundation, Nepal, and Mr. Bhakta Bahadur Bhandari, Chief of the Tourism Office, Kathmandu under the Ministry of Culture and Tourism, Bagmati Province Government.",
-      image: blogsImage,
+      image: blogsImage1,
       date: "2025-01-15",
       author: "MDS Foundation",
-      category: "Events"
+      // category: "Events"
     },
     {
       id: 2,
       title: "Creating Better Democratic Living Condition for People",
       excerpt: "Our foundation continues its mission to create better democratic living conditions for the people of Nepal. Founded on 30 December 2002 (2059 Paush-15), we carry the legacy of Martyr Dharma Bhakta Mathema.",
-      image: blogsImage,
+      image: blogsImage2,
       date: "2025-01-10",
       author: "MDS Foundation",
-      category: "Democracy"
+      // category: "Democracy"
     },
     {
       id: 3,
       title: "Carrying the Legacy, Shaping the Future",
       excerpt: "We are a non-political, non-profit social organization founded in honor of one of Nepal's brightest democratic heroes—Martyr Dharma Bhakta Mathema. Through our work, we aim to raise awareness of democracy, human rights, and civic development.",
-      image: blogsImage,
+      image: blogsImage3,
       date: "2025-01-05",
       author: "MDS Foundation",
-      category: "Mission"
+      // category: "Mission"
     },
     {
       id: 4,
       title: "Community Radio: Empowering Voices in Bhojpur",
       excerpt: "We operate a community radio station in Bhojpur District to spread awareness and foster community engagement through media, reaching thousands of people with important democratic messages.",
-      image: blogsImage,
+      image: blogsImage4,
       date: "2024-12-20",
       author: "MDS Foundation",
-      category: "Media"
+      // category: "Media"
     },
     {
       id: 5,
       title: "Children with the Prime Minister Program",
       excerpt: "On Bhadra 24, 2063 (Sept 10, 2006), we organized a groundbreaking national dialogue between children and the Prime Minister, fostering youth participation in democratic processes.",
-      image: blogsImage,
+      image: blogsImage5,
       date: "2024-12-15",
       author: "MDS Foundation",
-      category: "Youth Programs"
+      // category: "Youth Programs"
     },
     {
       id: 6,
       title: "Human Rights and Democracy Workshops",
       excerpt: "We regularly organize district-level workshops and awareness programs targeting youth on topics such as human rights, democratic values, and civic responsibilities.",
-      image: blogsImage,
+      image: blogsImage6,
       date: "2024-12-10",
       author: "MDS Foundation",
-      category: "Education"
+      // category: "Education"
     }
   ];
 
@@ -106,7 +111,7 @@ const Blogs = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                   <span className="bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">
-                    {blogPosts[0].category}
+                    {/* {blogPosts[0].category} */}
                   </span>
                   <div className="flex items-center space-x-1">
                     <Calendar className="h-4 w-4" />
@@ -160,7 +165,7 @@ const Blogs = () => {
                   <CardHeader>
                     <div className="flex items-center justify-between mb-2">
                       <span className="bg-primary text-white px-2 py-1 rounded text-xs font-medium">
-                        {post.category}
+                        {/* {post.category} */}
                       </span>
                       <div className="flex items-center space-x-1 text-xs text-muted-foreground">
                         <Calendar className="h-3 w-3" />

@@ -2,7 +2,16 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import galleryImage from "@/assets/img-1_gallery.jpg";
+import galleryImage1 from "@/assets/gallery1.jpg";
+import galleryImage2 from "@/assets/gallery2.jpg";
+import galleryImage3 from "@/assets/gallery3.jpg";
+import galleryImage4 from "@/assets/gallery4.jpg";
+import galleryImage5 from "@/assets/gallery5.jpg";
+import galleryImage6 from "@/assets/gallery6.jpg";
+import galleryImage7 from "@/assets/home7.jpg";
+import galleryImage8 from "@/assets/home8.jpg";
+import galleryImage9 from "@/assets/gallery7.jpg";
+import galleryImage10 from "@/assets/gallery9.jpg";
 import { Search, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,70 +20,77 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      title: "E-Learning Center Handover Ceremony",
-      category: "Events",
-      image: galleryImage,
-      description: "Official handover ceremony of the E-Learning Center"
+      // title: "E-Learning Center Handover Ceremony",
+      // category: "Events",
+      image: galleryImage1,
+      // description: "Official handover ceremony of the E-Learning Center"
     },
     {
       id: 2,
-      title: "Community Workshop in Bhojpur",
-      category: "Workshops",
-      image: galleryImage,
-      description: "Democratic awareness workshop for local community"
+      // title: "Community Workshop in Bhojpur",
+      // category: "Workshops",
+      image: galleryImage2,
+      // description: "Democratic awareness workshop for local community"
     },
     {
       id: 3,
-      title: "Youth Engagement Program",
-      category: "Youth Programs",
-      image: galleryImage,
-      description: "Children with Prime Minister initiative"
+      // title: "Youth Engagement Program",
+      // category: "Youth Programs",
+      image: galleryImage3,
+      // description: "Children with Prime Minister initiative"
     },
     {
       id: 4,
-      title: "Human Rights Campaign",
-      category: "Campaigns",
-      image: galleryImage,
-      description: "Awareness campaign for human rights"
+      // title: "Human Rights Campaign",
+      // category: "Campaigns",
+      image: galleryImage4,
+      // description: "Awareness campaign for human rights"
     },
     {
       id: 5,
-      title: "Radio Station Operations",
-      category: "Media",
-      image: galleryImage,
-      description: "Community radio broadcasting in Bhojpur"
+      // title: "Radio Station Operations",
+      // category: "Media",
+      image: galleryImage5,
+      // description: "Community radio broadcasting in Bhojpur"
     },
     {
       id: 6,
-      title: "Historical Documentation",
-      category: "Archive",
-      image: galleryImage,
-      description: "Digitization of historical movements"
+      // title: "Historical Documentation",
+      // category: "Archive",
+      image: galleryImage6,
+      // description: "Digitization of historical movements"
     },
     {
       id: 7,
-      title: "Foundation Board Meeting",
-      category: "Meetings",
-      image: galleryImage,
-      description: "Annual board meeting and planning session"
+      // title: "Foundation Board Meeting",
+      // category: "Meetings",
+      image: galleryImage7,
+      // description: "Annual board meeting and planning session"
     },
     {
       id: 8,
-      title: "Community Outreach",
-      category: "Outreach",
-      image: galleryImage,
-      description: "Reaching out to rural communities"
+      // title: "Community Outreach",
+      // category: "Outreach",
+      image: galleryImage8,
+      // description: "Reaching out to rural communities"
     },
     {
       id: 9,
-      title: "Educational Seminar",
-      category: "Education",
-      image: galleryImage,
-      description: "Educational seminar on democratic values"
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage9,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 10,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage10,
+      // description: "Educational seminar on democratic values"
     }
   ];
 
-  const categories = ["All", "Events", "Workshops", "Youth Programs", "Campaigns", "Media", "Archive", "Meetings", "Outreach", "Education"];
+  const categories = ["All"];
 
   return (
     <div className="min-h-screen">
@@ -110,13 +126,7 @@ const Gallery = () => {
                   </Button>
                 ))}
               </div>
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                <Input
-                  placeholder="Search gallery..."
-                  className="pl-10 w-64"
-                />
-              </div>
+              
             </div>
           </div>
         </section>
@@ -133,36 +143,37 @@ const Gallery = () => {
                   <div className="aspect-square overflow-hidden relative">
                     <img 
                       src={item.image} 
-                      alt={item.title}
+                      // alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-foundation-navy/0 group-hover:bg-foundation-navy/20 transition-all duration-300"></div>
                     <div className="absolute top-4 left-4">
                       <span className="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">
-                        {item.category}
+                        {/* {item.category} */}
                       </span>
                     </div>
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-lg text-foundation-navy group-hover:text-primary transition-colors mb-2">
-                      {item.title}
+                      {/* {item.title} */}
                     </h3>
                     <p className="text-muted-foreground text-sm">
-                      {item.description}
+                      {/* {item.description} */}
                     </p>
                   </div>
                 </Card>
               ))}
             </div>
 
-            {/* Load More */}
+            {/* Load More
             <div className="text-center mt-12">
               <Button variant="foundation" size="lg">
                 Load More Images
               </Button>
-            </div>
+            </div> */}
           </div>
         </section>
+
 
         {/* Gallery Stats */}
         <section className="py-20 bg-white">

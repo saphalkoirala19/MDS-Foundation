@@ -1,42 +1,47 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import programsImage from "@/assets/img-1_blogs.jpg";
+import programsImage1 from "@/assets/home4.jpg";
+import programsImage2 from "@/assets/home5.jpg";
+import programsImage3 from "@/assets/home6.jpg";
+import programsImage4 from "@/assets/home7.jpg";
+import programsImage5 from "@/assets/home8.jpg";
+import programsImage6 from "@/assets/gallery6.jpg";
 
 export const Programs = () => {
   const programs = [
     {
-      image: programsImage,
+      image: programsImage1,
       title: "In the field of communication, we...",
       description: "We operate a community radio station in Bhojpur District to spread awareness and foster community engagement through media.",
       href: "/blogs"
     },
     {
-      image: programsImage,
+      image: programsImage2,
       title: "\"Barsha\" Docu-drama",
       description: "In collaboration with WaterAid, we produced a nationwide docu-drama in 2008 focused on access to clean water and sanitation.",
       href: "/blogs"
     },
     {
-      image: programsImage,
+      image: programsImage3,
       title: "Human Rights and Democracy Programs",
       description: "We regularly organize district-level workshops and awareness programs targeting youth on topics such as human rights and democratic values.",
       href: "/blogs"
     },
     {
-      image: programsImage,
+      image: programsImage4,
       title: "Digitization of Historical Movements",
       description: "We've collected and digitally archived key information about Nepal's Second People's Movement and the abolition of monarchy.",
       href: "/blogs"
     },
     {
-      image: programsImage,
+      image: programsImage5,
       title: "Prime Minister with Children Program",
       description: "On Bhadra 24, 2063 (Sept 10, 2006), we organized a groundbreaking national dialogue between children and the Prime Minister.",
       href: "/blogs"
     },
     {
-      image: programsImage,
+      image: programsImage6,
       title: "President with Children Program",
       description: "We regularly organize opportunities for children to engage with national leaders, fostering civic awareness and youth participation.",
       href: "/blogs"

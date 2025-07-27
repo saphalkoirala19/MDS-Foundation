@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Facebook, Twitter, Instagram, Phone, Mail, MapPin, ArrowUp } from "lucide-react";
+import logo from "@/assets/mds-logo.jpeg"; 
 
 export const Footer = () => {
   const scrollToTop = () => {
@@ -14,9 +15,7 @@ export const Footer = () => {
           {/* Foundation Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold">
-                MDS
-              </div>
+              <img src={logo} alt="MDS Foundation Logo" className="w-16 h-16 rounded-full object-cover" />
               <div>
                 <div className="font-bold text-lg">MDS Foundation</div>
                 <div className="text-sm text-gray-300">Carrying the Legacy, Shaping the Future</div>
@@ -49,12 +48,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold text-lg">Useful Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/save-more-lives" className="text-gray-300 hover:text-white transition-colors">Save More Lives</Link></li>
-              <li><Link to="/programs/children-prime-minister" className="text-gray-300 hover:text-white transition-colors">Children Programs</Link></li>
-              <li><Link to="/programs/community-radio" className="text-gray-300 hover:text-white transition-colors">Community Radio</Link></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">News & Updates</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Resources</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Volunteer</a></li>
+              <li><Link to="https://hotc.org.np/" className="text-gray-300 hover:text-white transition-colors">Shahid Dharmabhakta National Transplant Center</Link></li>
             </ul>
           </div>
 

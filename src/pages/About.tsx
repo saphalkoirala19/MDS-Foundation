@@ -3,7 +3,14 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import aboutImage from "@/assets/img-1_about.jpg";
+import aboutImage1 from "@/assets/about us 1.jpg";
+import aboutImage2 from "@/assets/aboutus2.jpg";
+import presidentImg from "@/assets/SanketKoirala.jpeg";
+// import vpImg from "@/assets/GyanAcharya.jpg";
+// import generalSecretaryImg from "@/assets/HariNeupane.jpg";
+import treasurerImg from "@/assets/laxmansharma.jpeg";
+import member1Img from "@/assets/SaujanyaKoirala.jpeg";
+import member2Img from "@/assets/SarojDarnal.jpg";
 import { Award, Users2, Radio, Mic } from "lucide-react";
 
 const About = () => {
@@ -34,32 +41,32 @@ const About = () => {
     {
       name: "Sanket Koirala",
       position: "President",
-      image: aboutImage
+      image: presidentImg
     },
     {
       name: "Gyan Prasad Acharya",
       position: "Vice-president",
-      image: aboutImage
+      // image: vpImg
     },
     {
       name: "Hari Neupane",
       position: "General Secretary",
-      image: aboutImage
+      // image: generalSecretaryImg
     },
     {
       name: "Laxman Sharma",
       position: "Treasurer",
-      image: aboutImage
+      image: treasurerImg
     },
     {
       name: "Saujanya Koirala",
       position: "Member",
-      image: aboutImage
+      image: member1Img
     },
     {
       name: "Saroj Darnal",
       position: "Member",
-      image: aboutImage
+      // image: member2Img
     }
   ];
 
@@ -106,13 +113,13 @@ const About = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <img 
-                  src={aboutImage} 
-                  alt="About Us" 
+                  src={aboutImage1} 
+                  alt="About Us 1" 
                   className="rounded-lg shadow-card-foundation w-full h-64 object-cover"
                 />
                 <img 
-                  src={aboutImage} 
-                  alt="About Us" 
+                  src={aboutImage2} 
+                  alt="About Us 2" 
                   className="rounded-lg shadow-card-foundation w-full h-64 object-cover"
                 />
               </div>
