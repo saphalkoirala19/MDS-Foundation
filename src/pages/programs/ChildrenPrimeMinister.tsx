@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Users, MessageCircle, Crown, Heart } from "lucide-react";
-import programImage from "@/assets/img-1_blogs.jpg";
+import programImage from "@/assets/blog5.jpg";
 
 const ChildrenPrimeMinister = () => {
   useEffect(() => {

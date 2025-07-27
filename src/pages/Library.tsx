@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
-import libraryImage from "@/assets/img-1_library.jpg";
+import libraryImage from "@/assets/gallery9.jpg";
 import { Book, Download, Search, FileText, Video, Headphones, Globe } from "lucide-react";
 
 const Library = () => {

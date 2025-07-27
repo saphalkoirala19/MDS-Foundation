@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Radio, Users, Mic, Volume2 } from "lucide-react";
-import programImage from "@/assets/img-1_blogs.jpg";
+import programImage from "@/assets/home4.jpg";
 
 const CommunityRadio = () => {
   useEffect(() => {
