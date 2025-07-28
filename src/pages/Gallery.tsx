@@ -193,12 +193,12 @@ const Gallery = () => {
 
 
         {/* Gallery Stats */}
-        <section className="py-20 bg-white">
+        {/* <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="bg-primary rounded-2xl p-12 text-white">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
                 <div className="space-y-2">
-                  <div className="text-4xl font-bold">500+</div>
+                  <div className="text-4xl font-bold">100+</div>
                   <div className="text-lg">Photos Captured</div>
                 </div>
                 <div className="space-y-2">
@@ -210,13 +210,13 @@ const Gallery = () => {
                   <div className="text-lg">Years of History</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-4xl font-bold">100+</div>
+                  <div className="text-4xl font-bold">50+</div>
                   <div className="text-lg">Program Highlights</div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </div>
