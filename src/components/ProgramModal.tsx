@@ -42,9 +42,9 @@ export const ProgramModal = ({ isOpen, onClose, title, description, fullDescript
             <Button variant="outline" onClick={onClose}>
               Close
             </Button>
-            <Button variant="foundation">
+            {/* <Button variant="foundation">
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </DialogContent>

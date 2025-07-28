@@ -39,10 +39,10 @@ export const BlogModal = ({ isOpen, onClose, blog }: BlogModalProps) => {
         </DialogDescription>
         <div className="mt-6">
           <p className="text-muted-foreground">
-            This initiative reflects our ongoing commitment to promoting democratic values, 
+            {/* This initiative reflects our ongoing commitment to promoting democratic values, 
             human rights awareness, and community development across Nepal. Through such 
             programs, we continue to honor the legacy of Martyr Dharma Bhakta Mathema 
-            and work towards building a more informed and engaged society.
+            and work towards building a more informed and engaged society. */}
           </p>
         </div>
       </DialogContent>

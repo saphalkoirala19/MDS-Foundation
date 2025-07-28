@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Link } from "react-router-dom";
-import contactImage from "@/assets/img-1_contact.jpg";
+import contactImage from "@/assets/contact1.jpg";
 import { Phone, Mail, MapPin, Clock, Send, Facebook, Twitter, Instagram } from "lucide-react";
 
 const Contact = () => {
