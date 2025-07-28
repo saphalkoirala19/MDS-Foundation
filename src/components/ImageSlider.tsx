@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import heroImage1 from "@/assets/gallery6.jpg";
 import aboutImage from "@/assets/home5.jpg";
-import blogsImage from "@/assets/mds-logo.jpeg";
+import blogsImage from "@/assets/home1.jpg";
 import aboutImage1 from "@/assets/blog2.jpg";
 import aboutImage2 from "@/assets/blog1.jpg";
 import galleryimage from "@/assets/gallery9.jpg"

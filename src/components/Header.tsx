@@ -37,9 +37,9 @@ export const Header = () => {
               <span>mds.foundation@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
-              <Facebook className="h-4 w-4 hover:text-secondary cursor-pointer transition-colors" />
-              <Twitter className="h-4 w-4 hover:text-secondary cursor-pointer transition-colors" />
-              <Instagram className="h-4 w-4 hover:text-secondary cursor-pointer transition-colors" />
+               <a href="https://www.facebook.com/mdsfoundationnepal" target="_blank" rel="noopener noreferrer"><Facebook className="h-4 w-4 hover:text-secondary cursor-pointer transition-colors" /></a>
+              {/* <Twitter className="h-4 w-4 hover:text-secondary cursor-pointer transition-colors" /> */}
+               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Instagram className="h-4 w-4 hover:text-secondary cursor-pointer transition-colors" /></a>
             </div>
           </div>
         </div>

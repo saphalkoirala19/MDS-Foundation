@@ -2,8 +2,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import galleryImage1 from "@/assets/gallery1.jpg";
-import galleryImage2 from "@/assets/gallery2.jpg";
+import galleryImage1 from "@/assets/home.png";
+import galleryImage2 from "@/assets/home1.jpg";
 import galleryImage3 from "@/assets/gallery3.jpg";
 import galleryImage4 from "@/assets/gallery4.jpg";
 import galleryImage5 from "@/assets/gallery5.jpg";
@@ -12,6 +12,8 @@ import galleryImage7 from "@/assets/home7.jpg";
 import galleryImage8 from "@/assets/home8.jpg";
 import galleryImage9 from "@/assets/gallery7.jpg";
 import galleryImage10 from "@/assets/gallery9.jpg";
+import galleryImage11 from "@/assets/gallery2.jpg";
+import galleryImage12 from "@/assets/gallery1.jpg";
 import { Search, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -86,6 +88,21 @@ const Gallery = () => {
       // title: "Educational Seminar",
       // category: "Education",
       image: galleryImage10,
+      // description: "Educational seminar on democratic values"
+    }
+    ,
+    {
+      id: 11,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage11,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 12,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage12,
       // description: "Educational seminar on democratic values"
     }
   ];

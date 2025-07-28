@@ -25,9 +25,9 @@ export const Footer = () => {
               We are a non-political, non-profit social organization founded in honor of one of Nepal's brightest democratic heroes—Martyr Dharma Bhakta Mathema.
             </p>
             <div className="flex space-x-3">
-              <Facebook className="h-5 w-5 hover:text-secondary cursor-pointer transition-colors" />
-              <Twitter className="h-5 w-5 hover:text-secondary cursor-pointer transition-colors" />
-              <Instagram className="h-5 w-5 hover:text-secondary cursor-pointer transition-colors" />
+              <a href="https://www.facebook.com/mdsfoundationnepal" target="_blank" rel="noopener noreferrer"><Facebook className="h-5 w-5 hover:text-secondary cursor-pointer transition-colors" /></a>
+              {/* <Twitter className="h-5 w-5 hover:text-secondary cursor-pointer transition-colors" /> */}
+               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Instagram className="h-5 w-5 hover:text-secondary cursor-pointer transition-colors" /></a>
             </div>
           </div>
 

@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import blogsImage1 from "@/assets/blog1.jpg";
+import blogsImage1 from "@/assets/home1.jpg";
 import blogsImage2 from "@/assets/blog2.jpg";
 import blogsImage3 from "@/assets/blog3.jpg";
 import blogsImage4 from "@/assets/home4.jpg";
