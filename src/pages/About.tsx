@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import aboutImage1 from "@/assets/about us 1.jpg";
 import aboutImage2 from "@/assets/aboutus2.jpg";
 import presidentImg from "@/assets/SanketKoirala.jpeg";
-// import vpImg from "@/assets/GyanAcharya.jpg";
+import vpImg from "@/assets/GyanAcharya.jpeg";
 // import generalSecretaryImg from "@/assets/HariNeupane.jpg";
 import treasurerImg from "@/assets/laxmansharma.jpeg";
 import member1Img from "@/assets/SaujanyaKoirala.jpeg";
@@ -46,7 +46,7 @@ const About = () => {
     {
       name: "Gyan Prasad Acharya",
       position: "Vice-president",
-      // image: vpImg
+      image: vpImg
     },
     {
       name: "Hari Neupane",
