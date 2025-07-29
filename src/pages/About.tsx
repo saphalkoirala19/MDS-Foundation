@@ -7,7 +7,7 @@ import aboutImage1 from "@/assets/about us 1.jpg";
 import aboutImage2 from "@/assets/aboutus2.jpg";
 import presidentImg from "@/assets/SanketKoirala.jpeg";
 import vpImg from "@/assets/GyanAcharya.jpeg";
-// import generalSecretaryImg from "@/assets/HariNeupane.jpg";
+import generalSecretaryImg from "@/assets/HariNeupane.jpeg";
 import treasurerImg from "@/assets/laxmansharma.jpeg";
 import member1Img from "@/assets/SaujanyaKoirala.jpeg";
 import member2Img from "@/assets/SarojDarnal.jpg";
@@ -51,7 +51,7 @@ const About = () => {
     {
       name: "Hari Neupane",
       position: "General Secretary",
-      // image: generalSecretaryImg
+      image: generalSecretaryImg
     },
     {
       name: "Laxman Sharma",
