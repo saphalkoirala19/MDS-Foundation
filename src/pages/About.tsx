@@ -10,7 +10,7 @@ import vpImg from "@/assets/GyanAcharya.jpeg";
 import generalSecretaryImg from "@/assets/HariNeupane.jpeg";
 import treasurerImg from "@/assets/laxmansharma.jpeg";
 import member1Img from "@/assets/SaujanyaKoirala.jpeg";
-import member2Img from "@/assets/SarojDarnal.jpg";
+import member2Img from "@/assets/SarojDarnal.jpeg";
 import { Award, Users2, Radio, Mic } from "lucide-react";
 
 const About = () => {
@@ -66,7 +66,7 @@ const About = () => {
     {
       name: "Saroj Darnal",
       position: "Member",
-      // image: member2Img
+      image: member2Img
     }
   ];
 
