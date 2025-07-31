@@ -9,6 +9,8 @@ import presidentImg from "@/assets/SanketKoirala.jpeg";
 import vpImg from "@/assets/GyanAcharya.jpeg";
 import generalSecretaryImg from "@/assets/HariNeupane.jpeg";
 import treasurerImg from "@/assets/laxmansharma.jpeg";
+import advisorImg from "@/assets/PrameshKC.jpeg";
+import patronImg from "@/assets/SankharKoirala.jpeg"
 import member1Img from "@/assets/SaujanyaKoirala.jpeg";
 import member2Img from "@/assets/SarojDarnal.jpeg";
 import { Award, Users2, Radio, Mic } from "lucide-react";
@@ -57,6 +59,16 @@ const About = () => {
       name: "Laxman Sharma",
       position: "Treasurer",
       image: treasurerImg
+    },
+    {
+      name: "Pramesh KC",
+      position: "Advisor",
+      image: advisorImg
+    },
+    {
+      name: "Sankhar Koirala",
+      position: "Patron",
+      image: patronImg
     },
     {
       name: "Saujanya Koirala",
