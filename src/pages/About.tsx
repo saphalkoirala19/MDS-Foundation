@@ -61,14 +61,14 @@ const About = () => {
       image: treasurerImg
     },
     {
+      name: "Sankhar Prasad Koirala",
+      position: "Patron",
+      image: patronImg
+    },
+    {
       name: "Pramesh KC",
       position: "Advisor",
       image: advisorImg
-    },
-    {
-      name: "Sankhar Koirala",
-      position: "Patron",
-      image: patronImg
     },
     {
       name: "Saujanya Koirala",
