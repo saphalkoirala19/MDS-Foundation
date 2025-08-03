@@ -47,7 +47,7 @@ export const Programs = () => {
       href: "/blogs"
     }
   ];
-
+  
   return (
     <section className="py-20 bg-foundation-gray">
       <div className="container mx-auto px-4">

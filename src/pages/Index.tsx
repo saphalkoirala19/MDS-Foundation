@@ -9,6 +9,7 @@ import { WhatWeDo } from "@/components/WhatWeDo";
 import { Programs } from "@/components/Programs";
 import { AnimatedCounters } from "@/components/AnimatedCounters";
 import { FAQ } from "@/components/FAQ";
+import { ExecutiveBoardSection } from "@/components/ExecutiveBoardSection";
 
 const Index = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const Index = () => {
         <HeroSection />
         <FoundationMission />
         <WhatWeDo />
+        <ExecutiveBoardSection />
         <Programs />
         <AnimatedCounters />
         <FAQ />
