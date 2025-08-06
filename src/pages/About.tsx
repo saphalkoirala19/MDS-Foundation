@@ -19,7 +19,7 @@ import { MemberTooltip } from "@/components/MemberTooltip";
 
 const boardMembers = [
   {
-    name: "Sankhar Prasad Koirala",
+    name: "Shanker Prasad Koirala",
     position: "Patron",
     image: patronImg,
     description: "Patron of the foundation, providing guidance and support."

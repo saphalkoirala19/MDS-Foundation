@@ -29,7 +29,7 @@ export const ExecutiveBoardSection = () => {
 
   const executiveBoard = [
     {
-      name: "Sankhar Prasad Koirala",
+      name: "Shanker Prasad Koirala",
       position: "Patron",
       image: patronImage,
     },
