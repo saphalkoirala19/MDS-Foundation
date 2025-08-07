@@ -93,7 +93,7 @@ export const ExecutiveBoardSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Executive Board Tree Diagram */}
           <div className="space-y-8">
-            <h4 className="text-2xl font-bold text-foundation-navy text-center mb-8">Executive Board</h4>
+            {/* <h4 className="text-2xl font-bold text-foundation-navy text-center mb-8">Executive Board</h4> */}
 
             {/* Tree Structure */}
             <div className="flex flex-col items-center space-y-6">
@@ -156,7 +156,7 @@ export const ExecutiveBoardSection = () => {
 
           {/* Awesome Board Members */}
           <div className="space-y-6">
-            <h4 className="text-2xl font-bold text-foundation-navy text-center mb-8">Awesome Board Members</h4>
+            {/* <h4 className="text-2xl font-bold text-foundation-navy text-center mb-8">Awesome Board Members</h4> */}
 
             <div className="space-y-4">
               {awesomeBoardMembers.map((member, index) => (

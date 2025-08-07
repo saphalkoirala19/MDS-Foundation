@@ -14,6 +14,23 @@ import galleryImage9 from "@/assets/gallery7.jpg";
 import galleryImage10 from "@/assets/gallery9.jpg";
 import galleryImage11 from "@/assets/gallery2.jpg";
 import galleryImage12 from "@/assets/gallery1.jpg";
+import galleryImage13 from "@/assets/gallery8.jpg";
+import galleryImage14 from "@/assets/gallery10.jpg";
+import galleryImage15 from "@/assets/gallery11.jpg";
+import galleryImage16 from "@/assets/gallery12.jpg";
+import galleryImage17 from "@/assets/gallery25.jpg";
+import galleryImage18 from "@/assets/gallery13.jpg";
+import galleryImage19 from "@/assets/gallery14.jpg";
+import galleryImage20 from "@/assets/gallery15.jpg";
+import galleryImage21 from "@/assets/gallery16.jpg";
+import galleryImage22 from "@/assets/gallery17.jpg";
+import galleryImage23 from "@/assets/gallery18.jpg";
+import galleryImage24 from "@/assets/gallery19.jpg";
+import galleryImage25 from "@/assets/gallery20.jpg";
+import galleryImage26 from "@/assets/gallery21.jpg";
+import galleryImage27 from "@/assets/gallery22.jpg";
+import galleryImage28 from "@/assets/gallery23.jpg";
+import galleryImage29 from "@/assets/gallery24.jpg";
 import { Search, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -103,6 +120,125 @@ const Gallery = () => {
       // title: "Educational Seminar",
       // category: "Education",
       image: galleryImage12,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 13,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage13,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 14,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage14,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 15,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage15,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 16,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage16,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 17,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage17,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 18,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage18,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 19,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage19,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 20,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage20,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 21,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage21,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 22,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage22,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 23,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage23,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 24,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage24,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 25,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage25,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 26,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage26,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 27,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage27,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 28,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage28,
+      // description: "Educational seminar on democratic values"
+    },
+    {
+      id: 29,
+      // title: "Educational Seminar",
+      // category: "Education",
+      image: galleryImage29,
       // description: "Educational seminar on democratic values"
     }
   ];

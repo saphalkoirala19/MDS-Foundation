@@ -1,6 +1,11 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import heroImage1 from "@/assets/gallery6.jpg";
+import heroImage2 from "@/assets/home8.jpg";
+import heroImage3 from "@/assets/home7.png";
+import heroImage4 from "@/assets/gallery14.jpg";
+import heroImage5 from "@/assets/gallery19.jpg";
+import heroImage6 from "@/assets/gallery23.jpg";
 import aboutImage from "@/assets/home5.jpg";
 import blogsImage from "@/assets/home1.jpg";
 import aboutImage1 from "@/assets/blog2.jpg";
@@ -13,7 +18,27 @@ const images = [
     alt: "Educational Programs"
   },
   {
+    src: heroImage2,
+    alt: "MDS Foundation Community Work"
+  },
+  {
     src: heroImage1,
+    alt: "MDS Foundation Community Work"
+  },
+  {
+    src: heroImage3,
+    alt: "MDS Foundation Community Work"
+  },
+  {
+    src: heroImage4,
+    alt: "MDS Foundation Community Work"
+  },
+  {
+    src: heroImage5,
+    alt: "MDS Foundation Community Work"
+  },
+  {
+    src: heroImage6,
     alt: "MDS Foundation Community Work"
   },
   {
